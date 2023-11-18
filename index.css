@@ -1,0 +1,2608 @@
+html,
+body {
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+.chrismass-row {
+  padding-top: 5px;
+  margin-right: -52px;
+  margin-top: -10px;
+}
+
+.navbar1 {
+  background-color: rgb(40, 47, 85);
+  height: 80px;
+}
+
+.togggle-button {
+  padding-left: 20px;
+  padding-top: 25px;
+  color: rgb(249, 160, 44);
+}
+
+.togggle-button:hover {
+  color: rgb(249, 160, 44);
+}
+
+.offcanvas-header .btn-close {
+  color: white;
+}
+
+.offcanvas-header {
+  background-color: rgb(40, 47, 85);
+  height: 60px;
+}
+
+.login-system {
+  /* background-color: #212D55; */
+  height: 50px;
+}
+
+.offcanvas-body {
+  flex-grow: 1;
+  padding: 0px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+/* .offcanvas-start
+{
+    ider say togglebox ki width
+} */
+.login-heading {
+  display: flex;
+  padding: 22px;
+
+
+}
+
+.login-heading h6 a {
+  color: #212D55;
+
+}
+
+.offcanvas-body {
+  background-color: #212D55;
+}
+
+.a2 {
+  padding-left: 0px;
+  margin-left: -9px;
+}
+
+.line {
+  height: 2px;
+  color: white;
+}
+
+.button-system-buttons {
+  background-color: rgb(249, 160, 44);
+  /* you can adujsut the size of and heit and text of buttons here */
+  padding: 10px;
+}
+
+.button-system-buttons:hover {
+  background-color: transparent;
+  /* you can adujsut the size of and heit and text of buttons here */
+  color: white;
+}
+
+.Best {
+  margin-left: 5px;
+  width: 145px;
+
+}
+
+.Shop {
+  margin-left: 4px;
+
+}
+
+/* CSS rule to adjust the font size of your buttons */
+/* .button-system-buttons {
+  You can adjust the size as needed
+  } */
+.Multiby {
+  width: 132px;
+}
+
+.icon1 a {
+  display: flex;
+  /* Use a flex container to place the icon and text in a row */
+  align-items: center;
+  /* Center vertically within the container */
+  text-decoration: none;
+  /* Remove underline from the link */
+  color: white;
+  /* Set text color to white */
+
+}
+
+.icon1 i {
+  margin-right: 0px;
+  padding-left: 5px;
+  /* Add some spacing between the icon and text (adjust as needed) */
+}
+
+.icon1 a span {
+  padding-left: 13px;
+  color: white;
+  font-family: cursive;
+}
+
+.halloween-row {
+  margin-top: 20px;
+}
+
+.halloween-row:hover {
+  background-color: rgb(249, 160, 44);
+  transition: 0.3s ease-in-out;
+}
+
+.chrismas-row {
+  margin-top: 0px;
+}
+
+.chrismas-row:hover {
+  background-color: rgb(249, 160, 44);
+  transition: 0.3s ease-in-out;
+}
+
+.xamas-row {
+  margin-top: 0px;
+}
+
+.xamas-row:hover {
+  background-color: rgb(249, 160, 44);
+  transition: 0.3s ease-in-out;
+}
+
+.winter-row {
+  margin-top: 0px;
+}
+
+.winter-row:hover {
+  background-color: rgb(249, 160, 44);
+  transition: 0.3s ease-in-out;
+}
+
+.seasional-row {
+  margin-top: 0px;
+}
+
+.seasional-row:hover {
+  background-color: rgb(249, 160, 44);
+  transition: 0.3s ease-in-out;
+}
+
+.icon2 span {
+  padding-left: 5px;
+  color: white;
+  font-family: cursive;
+}
+
+.icon2 i {
+  margin-right: 0px;
+  padding-left: 0px;
+  /* Add some spacing between the icon and text (adjust as needed) */
+}
+
+.icon2 a {
+  display: flex;
+  /* Use a flex container to place the icon and text in a row */
+  align-items: center;
+  /* Center vertically within the container */
+  text-decoration: none;
+  /* Remove underline from the link */
+  color: rgb(249, 160, 44);
+  /* Set text color to white */
+
+}
+
+.statements-row {
+  height: 60px;
+  background-color: #F5F5F5;
+  padding: 15px;
+}
+
+.statements-row p {
+  color: black;
+  font-size: 14px;
+  padding-left: 60px;
+
+}
+
+marquee {
+  /* background-color:#80ED99; */
+  /* background-color: #ffc5d3; */
+  /* background-color: #EC255A; */
+  /* background-color: #bee488; */
+  background-color: #F5F5F5;
+  height: 30px;
+  padding-top: 3px;
+  padding-bottom: 0px;
+  margin-bottom: 5px;
+}
+
+.carousel-inner .carousel-item img {
+  /* Set your desired maximum height */
+  width: 100%;
+  height: 399px;
+}
+
+/* Make the carousel control arrows circular */
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #000;
+  border-radius: 50%;
+  width: 40px;
+  /* Adjust the size of the circular arrows */
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 20px;
+  /* Adjust the font size */
+  color: #fff;
+  padding-right: 5px;
+
+}
+
+.carousel-control-next {
+  padding-left: 8px;
+}
+
+/* Adjust the arrow position */
+.carousel-control-prev {
+  left: 10px;
+  top: 50%;
+}
+
+.carousel-control-next {
+  right: 10px;
+  top: 50%;
+}
+
+/* Default styles for both image-one and image-two */
+.image-one img {
+  width: 102%;
+  height: 202px;
+  vertical-align: middle;
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: -22px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#prob1 {
+  margin-left: -2px;
+}
+
+.image-two img {
+  width: 102%;
+  height: 202px;
+  vertical-align: middle;
+
+  align-items: center;
+  text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: -22px;
+  padding: 5px;
+
+}
+
+.image-three img {
+  width: 102%;
+  height: 203px;
+  vertical-align: middle;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: -40px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
+.image-four img {
+  width: 102%;
+  height: 202px;
+  vertical-align: middle;
+
+  align-items: center;
+  text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: -40px;
+  margin-top: -2px;
+  padding: 5px;
+}
+/* item-section */
+.image-seven {
+  position: relative;
+  padding-left: 1px;
+}
+
+
+.image-seven img {
+  /* position: relative; or position: absolute, depending on your layout */
+  width: 105%;
+  height: auto;
+  vertical-align: middle;
+  filter: brightness(0.7); /* Adjust the filter value */
+  /* z-index: -1; */
+}
+
+
+.pic-heading3 {
+  position: relative; 
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.pic-heading3 h5 {
+  font-size: 1.5em;
+  color: black;
+  font-weight: 400;
+  /* margin-top: -130px; */ /* Remove or adjust this line */
+  font-family: sans-serif;
+}
+
+
+.PETSUPPLIES {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.item-section {
+  padding-left: 10px;
+  padding-right: 27px;
+  padding-top: 5px;
+}
+
+  /* **************************************************************** */
+.vision-container
+{
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.vision-heading
+{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+#vision-id {
+  background-image: url("passets/tree.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Add a semi-transparent black overlay for depth effect */
+#vision-id::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.1; /* Adjust the opacity as needed */
+}
+
+.vision-heading h5 {
+  color: white;
+  text-align: center;
+  text-shadow: 0px 5px 4px rgba(0, 0, 0, 0.20);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.767; /* 53.01px / 30px (assuming the font-size is 30px) */
+  padding-top: 20px;
+  margin-bottom: -7px;
+}
+
+.vision-text p {
+  padding: 10px;
+  color: white;
+  font-size: small;
+  text-align: center;
+}
+
+/* Optional: If you want to make the text more readable, you can add a text-shadow */
+.vision-text p {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+
+/* ********************************************************************** */
+/* now new section  */
+.cards-row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  margin: -5px; /* Adjust the negative margin based on your preference */
+}
+
+.card-col {
+  flex: 0 0 calc(16.666667% - 100px); /* Each column takes approximately 33.33%, adjust margin as needed */
+  margin: 5px; /* Adjust the margin based on your preference */
+}
+
+
+.card{
+  width: 180px;
+  height: 220px;
+  flex-shrink: 0;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin-bottom: 10px;
+  
+  }
+  .content p{
+    padding: 10px;
+    color: #000;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 30px;
+  vertical-align: middle;
+  }
+  .icon i{
+    padding-top: 40px;
+    vertical-align: middle;
+    color: #FFC300;
+    font-size:6em;
+  }
+  
+/* ********************************** */
+
+.cart-col {
+  flex: 0 0 calc(20% - 100px); /* Each column takes approximately 33.33%, adjust margin as needed */
+  margin: 5px; /* Adjust the margin based on your preference */
+}
+
+.cart-row{
+  padding-top: 0px;
+padding-bottom: 5px;
+justify-content: center;
+align-items: center;
+text-align: center;
+display: flex;
+flex-wrap: nowrap;
+padding: 30px;
+
+}
+.card2{
+  width: 273px;
+  height: auto;
+ 
+}
+.card2 h4{
+  color: white;
+  font-family: sans-serif;
+}
+.card2 .card-body{
+background-color:#282F55 ;
+justify-content: center;
+align-items: center;
+text-align: center;
+height: 188px;
+width: 273px;
+}
+.card2 p{
+  font-size: small;
+  color: white;
+  font-family: sans-serif;
+}
+.card2 .btn{
+background-color: #FFC300;
+border-radius: 0px;
+color: white;
+width: 200px;
+}
+.card2 img{
+  width: 100%;
+  height: 230px;
+}
+.stars-div{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: -30px;
+}
+.stars-div i{
+  color: white;
+  font-size: 12px;
+}
+.stars-div p{
+padding-top: 17px;
+padding-left: 2px;
+}
+.cart-row{
+  display: flex;
+}
+.price-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: -8px;
+}
+.cart-container {
+  max-width: 1200px; /* Adjust as needed */
+  margin: 0 auto; /* Center the content */
+}
+
+.div-action {
+  position: relative;
+}
+
+.circular-div {
+  position: absolute;
+  top: 6px;
+  right: 5px;
+  background-color:#FFC300;
+  color: #fff;
+  border-radius: 50%;
+  padding: 10px;
+  text-align: center;
+  line-height: 2; /* Add this line to vertically center the text */
+}
+
+.circular-div p {
+  margin: 0; /* Remove default margin to ensure accurate centering */
+  font-size: medium;
+  color: black;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+/* ********************************************************************** */
+
+
+.brand-image-logo-row {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  margin-bottom: -18px;
+  margin-top: -18px;
+}
+.brands-logo-card{
+  width: 205px;
+  height: 180px;
+}
+/* ********************************************************************** */
+.footer-row{
+  background-color: #282F55;
+  justify-content: center;
+  vertical-align: middle;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 10px;
+  
+
+}
+.footer-row h5{
+  color: white;
+  padding-top: 20px;
+  font-size: 20px;
+}
+.data p{
+  color: white;
+  font-size: 12px;
+ text-align: justify;
+
+}
+/* footer-sub-menus */
+.b{
+  margin-top: -14px;
+}
+.c{
+  margin-top: -14px;
+}
+.d{
+  margin-top: -14px;
+}
+.e{
+  margin-top: -14px;
+}
+.f{
+  margin-top: -14px;
+}
+#g{
+  margin-top: 0px;
+}
+#h{
+  margin-top: -14px;
+}
+.i{
+  margin-top: -14px;
+}
+.j{
+  margin-top: -14px;
+}
+.k{
+  margin-top: -14px;
+}
+/* ********************************************************************** */
+.footer-row2{
+  background-color: #15244D;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  justify-content:center ;
+  vertical-align: middle;
+}
+.footer-row2 p{
+
+  color: white;
+  font-size: 12px;
+
+}
+.x, .y{
+  margin-top: -13px;
+}
+ .w{
+  margin-top: -16px
+}
+
+.data3 input{
+height: 40px;
+}
+.data3 button{
+  margin-left: 10px;
+  border: 1px solid #FFC300;
+  color: white;
+  font-size: 16px;
+}
+.data3 button:hover{
+  margin-left: 10px;
+  border: 1px solid #FFC300;
+  color: white;
+ 
+}
+.img-footer{
+  display: flex;
+  margin-left: -4px;
+}
+.img-footer .first-card{
+  width: 70px;
+  height: 61px;
+  margin-top: -21px;
+  margin-bottom: 10px;
+}
+.pay-pal{
+margin-left: -21px;
+}
+.logo img{
+  width: 150px;
+  height: 150px;
+}
+.logo{
+  align-items: center;
+  vertical-align: middle;
+  text-align: center;
+  justify-content: center;
+}
+.search-bar-lines{
+  margin-bottom: -8px;
+}
+.footer-row i{
+  font-size: 30px;
+ 
+
+}
+
+
+/* ********************************************************************** */
+ .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .testimonial-card{
+      border: none;
+      box-shadow: none;
+      padding: 0;
+    }
+ .testimonial-card .card-body
+    {
+width: 270px;
+height: 250px;
+background-color: #282F55;
+    }
+    .testimonial-card .card-body p{
+      color: white;
+      padding: 15px 8px 8px 0px;
+      font-size: 13px;
+      font-family: sans-serif;
+      text-align: left;
+      margin-bottom: -3px;
+    }
+.rating 
+{
+  padding-right: 142px;
+}
+/* ********************************************************************** */
+
+
+.rights-row{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #FFC300;
+  height: 35px;
+}
+.rights-row p{
+  font-size: 14px;
+  font-family: sans-serif;
+  color:black;
+  margin: auto;
+  padding: 5px 10px 5px 10px;
+}
+
+/* ********************************************************************** */
+
+.customer-reviews{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  vertical-align: middle;
+  padding: 20px;
+}
+.customer-reviews h4{
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.testing-row{
+  display: flex;
+  border: 2px solid black;
+}
+
+/* ********************************************************************** */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  /* Your CSS styles for the specified range go here */
+ 
+
+
+
+.testimonial-row{
+  margin-bottom: 25px;
+}
+
+
+.card.testimonial-card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adjust the values as needed */
+}
+
+  .testimonial-card .card-body
+  {
+width: 230px;
+height: 370px;
+background-color: #282F55;
+  }
+  .testimonial-card .card-body p{
+    color: white;
+    padding: 13px 8px 4px 0px;
+    font-size: 13px;
+    font-family: sans-serif;
+    text-align: left;
+    margin-bottom: -3px;
+  }
+.rating 
+{
+padding-right: 125px;
+}
+.rating i{
+  font-size: 12px;
+}
+.swiper-pagination{
+  display: none;
+}
+
+ 
+
+  marquee {
+    background-color: #F5F5F5;
+    height: 25px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    /* margin-bottom: -5px; */
+  }
+
+  marquee span {
+    font-size: small;
+  }
+
+  .carousel-inner .carousel-item img {
+    max-width: 100%;
+    /* Set your desired maximum height */
+    width: auto;
+    height: 296px;
+  }
+
+  /* Make the carousel control arrows circular */
+  .carousel-control-prev,
+  .carousel-control-next {
+    background-color: #000;
+    border-radius: 50%;
+    width: 40px;
+    /* Adjust the size of the circular arrows */
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    /* Adjust the font size */
+    color: #fff;
+    padding-right: 5px;
+
+  }
+
+  .carousel-control-next {
+    padding-left: 8px;
+  }
+
+  /* Adjust the arrow position */
+  .carousel-control-prev {
+    left: 10px;
+    top: 50%;
+  }
+
+  .carousel-control-next {
+    right: 10px;
+    top: 50%;
+  }
+
+  .image-one img,
+  .image-two img {
+    height: 150px;
+    /* Keep the same height for both images */
+    /* You can also modify other styles here */
+    vertical-align: middle;
+
+  }
+
+  .image-three img,
+  .image-four img {
+    height: 150px;
+    /* Keep the same height for both images */
+    /* You can also modify other styles here */
+    vertical-align: middle;
+
+  }
+
+/* item-section */
+.image-seven {
+  position: relative;
+  padding-left: 1px;
+}
+
+
+.image-seven img {
+  /* position: relative; or position: absolute, depending on your layout */
+  width: 107%;
+  height: auto;
+  vertical-align: middle;
+  filter: brightness(0.7); /* Adjust the filter value */
+  /* z-index: -1; */
+}
+
+
+.pic-heading3 {
+  position: relative; 
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.pic-heading3 h5 {
+  font-size: 1.5em;
+  color: black;
+  font-weight: 400;
+  /* margin-top: -130px; */ /* Remove or adjust this line */
+  font-family: sans-serif;
+}
+
+
+.PETSUPPLIES {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.item-section {
+  padding-left: 9px;
+  padding-right: 31px;
+  padding-top: 5px;
+}
+
+.cards-row {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  margin: -5px; /* Adjust the negative margin based on your preference */
+}
+
+.card-col {
+  /* flex: 0 0 calc(16.666667% - 10px); Each column takes approximately 33.33%, adjust margin as needed */
+  margin: 5px; /* Adjust the margin based on your preference */
+  width: auto;
+}
+
+
+.card{
+  width: 130px;
+  height: 130px;
+  flex-shrink: 0;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin-bottom: 30px;
+  padding: 3px;
+  
+  }
+  .content p{
+    padding: 10px;
+    color: #000;
+  font-family: sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 10px;
+  vertical-align: middle;
+  }
+  .icon i{
+    padding-top: 25px;
+    vertical-align: middle;
+    color: #FFC300;
+    font-size:3em;
+  }
+
+
+  }
+
+
+
+
+
+@media screen and (min-width: 767.98px) and (max-width: 991.98px) {
+
+  
+  
+
+
+
+
+  .testimonial-row{
+    margin-bottom: 25px;
+  }
+    .testimonial-card .card-body
+    {
+  width: 179px;
+  height: 350px;
+  background-color: #282F55;
+    }
+
+    .card.testimonial-card {
+      border: none;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adjust the values as needed */
+  }
+  
+  
+    .testimonial-card .card-body p{
+      color: white;
+      padding: 11 0px 1px 0px;
+      font-size: 11px;
+      font-family: sans-serif;
+      text-align: left;
+      margin-bottom: -3px;
+    }
+  .rating 
+  {
+  padding-right: 78px;
+  }
+  .rating i{
+    font-size: 12px;
+  }
+  .swiper-pagination{
+    display: none;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  .footer-row2{
+    background-color: #15244D;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content:center ;
+    vertical-align: middle;
+  }
+
+  .rights-row{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #FFC300;
+    height: 35px;
+  }
+  .rights-row p{
+    font-size: 13px;
+    font-family: sans-serif;
+    color:black;
+    margin: auto;
+  }
+  
+
+  .footer-row h5{
+    font-size: 18px;
+  }
+  .footer-row2 p{
+  
+    color: white;
+    font-size: 10px;
+  
+  }
+  .x, .y{
+    margin-top: -12px;
+  }
+   .w{
+    margin-top: -16px
+  }
+  
+  .data3 input{
+  height: 35px;
+  font-size: 10px;
+
+  }
+
+  .data3 button{
+    margin-left: 10px;
+    border: 1px solid #FFC300;
+    color: white;
+    font-size: 12px;
+    height: 35px;
+  }
+  .data3 button:hover{
+    margin-left: 10px;
+    border: 1px solid #FFC300;
+    color: white;
+   
+  }
+  .img-footer{
+    display: flex;
+    margin-left: -4px;
+  }
+  .img-footer .first-card{
+    width: 44px;
+    height: 44px;
+    margin-top: -14px;
+  }
+  .pay-pal{
+  margin-left: -21px;
+  }
+  .logo img{
+    width: 100px;
+    height: 100px;
+  }
+  .logo{
+    align-items: center;
+    vertical-align: middle;
+    text-align: center;
+    justify-content: center;
+  }
+  .search-bar-lines{
+    margin-bottom: -8px;
+  }
+.footer-row i{
+  font-size: 27px;
+}
+/* 
+******************************************* */
+ 
+  
+
+  .image-one img {
+    padding-top: 10px;
+    padding-left: 23px;
+    margin-bottom: -10px;
+    height: 250px;
+    width: 104%;
+  }
+ 
+
+  .chrismas-col {
+    padding: 10px;
+  }
+
+
+  .image-two img {
+    padding-top: 10px;
+    padding-left: 23px;
+    height: 250px;
+    width: 104%;
+  }
+
+  .image-three img {
+    padding-top: 10px;
+    padding-left: 0px;
+    margin-bottom: -10px;
+    margin-left: -26px;
+    height: 250px;
+    padding-right: 25px;
+  }
+
+  .image-four img {
+    padding-top: 12px;
+    padding-left: 10px;
+    margin-left: -35px;
+    height: 252px;
+    padding-right: 15px;
+  }
+
+
+  /* Make the carousel control arrows circular */
+  .carousel-control-prev,
+  .carousel-control-next {
+    background-color: #000;
+    border-radius: 50%;
+    width: 40px;
+    /* Adjust the size of the circular arrows */
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    /* Adjust the font size */
+    color: #fff;
+    padding-right: 5px;
+
+
+  }
+
+  .carousel-inner .carousel-item img {
+    max-width: 100%;
+    /* Set your desired maximum height */
+    width: auto;
+    height: 450px;
+  }
+
+  #prob1 {
+    padding-right: 54px;
+    padding-left: 15px;
+  }
+
+
+  .image-seven {
+    position: relative;
+    padding-left: 1px;
+  }
+  
+  
+  .image-seven img {
+    /* position: relative; or position: absolute, depending on your layout */
+    width: 109%;
+    height: auto;
+    vertical-align: middle;
+    filter: brightness(0.7); /* Adjust the filter value */
+    /* z-index: -1; */
+  }
+  
+  
+  .pic-heading3 {
+    position: relative; 
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .pic-heading3 h5 {
+    font-size: 1.5em;
+    color: black;
+    font-weight: 400;
+    /* margin-top: -130px; */ /* Remove or adjust this line */
+    font-family: sans-serif;
+  }
+  
+  
+  .PETSUPPLIES {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    /* padding: 1px; */
+  }
+  
+  .item-section {
+    padding-left: 12px;
+    padding-right: 28px;
+    padding-top: 5px;
+  }
+  .vision-container
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+.cards-row {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  margin: -5px; /* Adjust the negative margin based on your preference */
+}
+
+.card-col {
+  /* flex: 0 0 calc(16.666667% - 10px); Each column takes approximately 33.33%, adjust margin as needed */
+  margin: -2px; /* Adjust the margin based on your preference */
+  width: auto;
+}
+
+
+.card{
+  width: 150x;
+  height: 150px;
+  flex-shrink: 0;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin-bottom: 30px;
+  padding: 3px;
+  
+  }
+  .content p{
+    padding: 10px;
+    color: #000;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 10px;
+  vertical-align: middle;
+  }
+  .icon i{
+    padding-top: 20px;
+    vertical-align: middle;
+    color: #FFC300;
+    font-size:4em;
+  }
+  }
+
+ 
+
+
+@media screen and (min-width: 576px) and (max-width: 767.98px)
+
+
+{
+
+.testimonial-row{
+  margin-bottom: 28px;
+}
+  .card.testimonial-card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adjust the values as needed */
+}
+
+  .testimonial-card .card-body
+  {
+width:177px;
+height: 170px;
+background-color: #282F55;
+  }
+  .testimonial-card .card-body p{
+    color: white;
+    padding: 8px 5px 5px 0px;
+    font-size: 11px;
+    font-family: sans-serif;
+    text-align: left;
+    margin-bottom: -3px;
+  }
+.rating 
+{
+padding-right: 80px;
+}
+.rating i{
+  font-size: 11px;
+}
+.swiper-pagination{
+  display: none;
+}
+
+/* ********************************************************************** */
+  .footer-row{
+    background-color: #282F55;
+    justify-content: center;
+    vertical-align: middle;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+    
+  
+  }
+
+  .rights-row{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #FFC300;
+    height: 35px;
+  }
+  .rights-row p{
+    font-size: 12px;
+    font-family: sans-serif;
+    color:black;
+    margin: auto;
+  }
+  
+
+  .footer-row h5{
+    color: white;
+    padding-top: 20px;
+    font-size: 17px;
+  }
+  .data p{
+    color: white;
+    font-size: 10px;
+   text-align: justify;
+  
+  }
+
+  /* footer-sub-menus */
+  .b{
+    margin-top: -14px;
+  }
+  .c{
+    margin-top: -14px;
+  }
+  .d{
+    margin-top: -14px;
+  }
+  .e{
+    margin-top: -14px;
+  }
+  .f{
+    margin-top: -14px;
+  }
+  #g{
+    margin-top: 0px;
+  }
+  #h{
+    margin-top: -14px;
+  }
+  .i{
+    margin-top: -14px;
+  }
+  .j{
+    margin-top: -14px;
+  }
+  .k{
+    margin-top: -14px;
+  }
+  /* ********************************************************************** */
+  .footer-row2{
+    background-color: #15244D;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content:center ;
+    vertical-align: middle;
+  }
+  .footer-row2 p{
+  
+    color: white;
+    font-size: 12px;
+  
+  }
+  .x, .y{
+    margin-top: -13px;
+  }
+   .w{
+    margin-top: -16px
+  }
+  
+  .data3 input{
+  height: 40px;
+  }
+  .data3 button{
+    margin-left: 10px;
+    border: 1px solid #FFC300;
+    color: white;
+    font-size: 16px;
+  }
+  .data3 button:hover{
+    margin-left: 10px;
+    border: 1px solid #FFC300;
+    color: white;
+   
+  }
+  .img-footer{
+    display: flex;
+    margin-left: -4px;
+  }
+  .img-footer .first-card{
+    width: 70px;
+    height: 61px;
+    margin-top: -21px;
+  }
+  .pay-pal{
+  margin-left: -21px;
+  }
+  .logo img{
+    width: 150px;
+    height: 150px;
+  }
+  .logo{
+    align-items: center;
+    vertical-align: middle;
+    text-align: center;
+    justify-content: center;
+    display: none;
+  }
+  .search-bar-lines{
+    margin-bottom: -8px;
+  }
+  .footer-row i{
+    font-size: 23px;
+  }
+  /* ********************************************************************** */
+
+
+
+
+
+  .item-section {
+    padding-left: 4.2px;
+    padding-right: 28px;
+    padding-top: 5px;
+  }
+
+  marquee {
+    background-color: #F5F5F5;
+    height: 25px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    /* margin-bottom: -5px; */
+  }
+
+  marquee span {
+    font-size: smaller;
+  }
+
+
+  .image-one img {
+    padding-top: 10px;
+    padding-left: 15px;
+    margin-bottom: -6px;
+    height: 220px;
+    width: 104%;
+  }
+
+
+  .chrismas-col {
+    padding: 10px;
+  }
+
+
+  .image-two img {
+    padding-top: 10px;
+    padding-left: 15px;
+    height: 220px;
+    width: 104%;
+  }
+
+  .image-three img {
+    padding-top: 10px;
+    padding-left: -36px;
+    margin-bottom: -6px;
+    margin-left: -36px;
+    height: 220px;
+    padding-right: 7px;
+    width: 102.5%;
+  }
+
+  .image-four img {
+    padding-top: 12px;
+    padding-left: 10px;
+    margin-left: -41px;
+    height: 222px;
+    padding-right: 0px;
+  }
+
+
+  /* Make the carousel control arrows circular */
+  
+  .carousel-control-prev {
+    margin-left: -5px;
+  }
+  .carousel-control-next {
+    right: 17px;
+    top: 50%;
+  }
+  .carousel-inner .carousel-item img {
+    max-width: 100%;
+    /* Set your desired maximum height */
+    width: auto;
+    height: 400px;
+  }
+  #prob1{
+    margin-left: -12px;
+    padding-right: 15px;
+  }
+
+  .image-seven {
+    position: relative;
+    padding-left: 1px;
+  }
+  
+  
+  .image-seven img {
+    /* position: relative; or position: absolute, depending on your layout */
+    width: 106%;
+    height: auto;
+    vertical-align: middle;
+    filter: brightness(0.7); /* Adjust the filter value */
+    padding-bottom: 4.25px;
+    /* z-index: -1; */
+  }
+  
+  
+  .pic-heading3 {
+    position: relative; 
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .pic-heading3 h5 {
+    font-size: 1.5em;
+    color: black;
+    font-weight: 400;
+    /* margin-top: -130px; */ /* Remove or adjust this line */
+    font-family: sans-serif;
+  }
+  
+  
+  .PETSUPPLIES {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .item-section {
+    padding-left: 4.2px;
+    padding-right: 26px;
+    padding-top: 5px;
+  }
+
+
+  #vision-id {
+    background-image: url("passets/tree.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+   
+  }
+  .vision-container
+  {
+    margin-top: 5px;
+    padding: 0px 6px 0px 6px;
+  }
+  .cards-row {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    margin: -5px; /* Adjust the negative margin based on your preference */
+  }
+  
+  .card-col {
+    /* flex: 0 0 calc(16.666667% - 10px); Each column takes approximately 33.33%, adjust margin as needed */
+    margin: -7px; /* Adjust the margin based on your preference */
+    width: auto;
+  }
+  
+  
+  .card{
+    width: 130x;
+    height: 130px;
+    flex-shrink: 0;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-bottom: 30px;
+    padding: 3px;
+    
+    }
+    .content p{
+      padding: 10px;
+      color: #000;
+    font-family: sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 10px;
+    vertical-align: middle;
+    }
+    .icon i{
+      padding-top: 25px;
+      vertical-align: middle;
+      color: #FFC300;
+      font-size:4em;
+    }
+   
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  /* Your CSS styles for the specified range go here */
+
+
+/* ********************************************************************** */
+
+
+
+
+  
+  marquee {
+    background-color: #F5F5F5;
+    height: 25px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    /* margin-bottom: -5px; */
+  }
+
+  marquee span {
+    font-size: medium;
+  }
+
+  carousel-inner .carousel-item img {
+    /* Set your desired maximum height */
+    width: 100%;
+    height: 399px;
+  }
+  
+  /* Make the carousel control arrows circular */
+  .carousel-control-prev,
+  .carousel-control-next {
+    background-color: #000;
+    border-radius: 50%;
+    width: 40px;
+    /* Adjust the size of the circular arrows */
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    /* Adjust the font size */
+    color: #fff;
+    padding-right: 5px;
+  
+  }
+  
+  .carousel-control-next {
+    padding-left: 8px;
+  }
+  
+  /* Adjust the arrow position */
+  .carousel-control-prev {
+    left: 10px;
+    top: 50%;
+  }
+  
+  .carousel-control-next {
+    right: 10px;
+    top: 50%;
+  }
+  
+  /* Default styles for both image-one and image-two */
+  .image-one img {
+    width: 102%;
+    height: 202px;
+    vertical-align: middle;
+  
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: -22px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  
+  #prob1 {
+    margin-left: -2px;
+  }
+  
+  .image-two img {
+    width: 102%;
+    height: 202px;
+    vertical-align: middle;
+  
+    align-items: center;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: -22px;
+    padding: 5px;
+  
+  }
+  
+  .image-three img {
+    width: 102%;
+    height: 203px;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: -40px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  
+  
+  .image-four img {
+    width: 102%;
+    height: 202px;
+    vertical-align: middle;
+  
+    align-items: center;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: -40px;
+    margin-top: -2px;
+    padding: 5px;
+  }
+
+/* ********************************************************************** */
+/* now new section  */
+.cards-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  margin: -5px; /* Adjust the negative margin based on your preference */
+}
+
+.card-col {
+  flex: 0 0 calc(14.666667% - 60px); /* Each column takes approximately 33.33%, adjust margin as needed */
+  margin: 5px; /* Adjust the margin based on your preference */
+}
+
+
+.card{
+  width: 150px;
+  height: 200px;
+  flex-shrink: 0;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin-bottom: 30px;
+  
+  }
+  .content p{
+    padding: 10px;
+    color: #000;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 25px;
+  vertical-align: middle;
+  }
+  .icon i{
+    padding-top: 40px;
+    vertical-align: middle;
+    color: #FFC300;
+    font-size:5em;
+  }
+ 
+}
+
+  
+
+@media screen and (min-width: 480px) and (max-width: 575.98px)
+{
+  .swiper-pagination{
+    display: none;
+  }
+.testimonial-row{
+ padding: 20px;
+}
+.testimonial-card{
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adjust the values as needed */
+ }
+.testimonial-card .card-body
+ {
+  width: 276px;
+  height: 142px;
+  background-color: #282F55;
+ }
+ .testimonial-card .card-body p{
+   color: white;
+   padding: 11px 60px 8px 0px;
+   font-size: 11px;
+   font-family: sans-serif;
+   text-align: left;
+   margin-bottom: -10px;
+ }
+.rating 
+{
+padding-right: 182px;
+}
+.rating i{
+  font-size: 10px;
+}
+
+}
+@media screen and (min-width: 320px) and (max-width: 575.98px)
+{
+
+.footer-row{
+  background-color: #282F55;
+  justify-content: space-evenly;
+  vertical-align: middle;
+}
+  
+.rights-row{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #FFC300;
+  height: 35px;
+}
+.rights-row p{
+  font-size: 10px;
+  font-family: sans-serif;
+  color:black;
+  margin: auto;
+}
+
+
+.footer-row h5{
+  color: white;
+  padding-top: 17px;
+  font-size: 17px;
+}
+.data p{
+  color: white;
+  font-size: 11px;
+ text-align: justify;
+font-weight: 500;
+
+}
+.data, .data2{
+margin: auto;
+}
+/* footer-sub-menus */
+.b{
+  margin-top: -14px;
+}
+.c{
+  margin-top: -14px;
+}
+.d{
+  margin-top: -14px;
+}
+.e{
+  margin-top: -14px;
+}
+.f{
+  margin-top: -14px;
+}
+#g{
+  margin-top: -10px;
+}
+#h{
+  margin-top: -14px;
+}
+.i{
+  margin-top: -14px;
+}
+.j{
+  margin-top: -14px;
+}
+.k{
+  margin-top: -14px;
+}
+/* ********************************************************************** */
+.footer-row2{
+  background-color: #15244D;
+  justify-content:center ;
+  vertical-align: middle;
+}
+.footer-row2 p{
+
+  color: white;
+  font-size: 12px;
+
+}
+.x, .y{
+  margin-top: -13px;
+}
+ .w{
+  margin-top: -16px
+}
+
+.data3 input{
+height: 40px;
+font-size: 11px;
+}
+.data3 button{
+  margin-left: 10px;
+  border: 1px solid #FFC300;
+  color: white;
+  font-size: 11px;
+  font-weight: bold;
+}
+.data3 button:hover{
+  margin-left: 10px;
+  border: 1px solid #FFC300;
+  color: white;
+ 
+}
+.img-footer{
+  display: flex;
+  margin-left: -4px;
+}
+.img-footer .first-card{
+  width: 49px;
+  height: 46px;
+  margin-top: -13px;
+}
+.pay-pal{
+margin-left: -21px;
+}
+.logo img{
+  width: 150px;
+  height: 150px;
+}
+.logo{
+  align-items: center;
+  vertical-align: middle;
+  text-align: center;
+  justify-content: center;
+  display: none;
+}
+.search-bar-lines{
+  margin-bottom: -8px;
+}
+.footer-row i{
+  font-size: 23px;
+
+padding-bottom: 18px;
+}
+
+/* ********************************************************************** */
+  marquee {
+    background-color: #F5F5F5;
+    height: 23px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    /* margin-bottom: -5px; */
+  }
+
+  marquee span {
+    font-size: smaller;
+  }
+
+
+  .image-one img {
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-bottom: -7px;
+    height: auto;
+    width: 100%;
+    margin-left: -7px;
+    margin-top: 6px;
+    margin-right: 25px;
+    padding-right: 26px;
+
+  }
+
+
+  .chrismas-col {
+    padding: 10px;
+  }
+
+
+  .image-two img {
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-bottom: -7px;
+    height: auto;
+    width: 100%;
+    margin-left: -7px;
+    margin-top: 6px;
+    margin-right: 25px;
+    padding-right: 26px;
+    
+  }
+
+  .image-three img {
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-bottom: -7px;
+    height: auto;
+    width: 100%;
+    margin-left: -7px;
+    margin-top: 6px;
+    margin-right: 25px;
+    padding-right: 26px;
+    
+  }
+
+  .image-four img {
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-bottom: -7px;
+    height: auto;
+    width: 100%;
+    margin-left: -7px;
+    margin-top: 6px;
+    margin-right: 25px;
+    padding-right: 26px;
+    
+  }
+
+
+  /* Make the carousel control arrows circular */
+  
+
+  .carousel-inner .carousel-item img {
+    max-width: 100%;
+    /* Set your desired maximum height */
+    width: auto;
+    height: 329px;
+  }
+  #prob1{
+    margin-left: -12px;
+    padding-right: 28px;
+  }
+
+  .image-seven {
+    position: relative;
+    padding-left: 1px;
+  }
+  
+  
+  .image-seven img {
+    /* position: relative; or position: absolute, depending on your layout */
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+    filter: brightness(0.7); /* Adjust the filter value */
+    margin-top: 3px;
+    padding-bottom: 3px;
+    /* z-index: -1; */
+  }
+  
+  
+  .pic-heading3 {
+    position: relative; 
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .pic-heading3 h5 {
+    font-size: 1.5em;
+    color: black;
+    font-weight: 400;
+    /* margin-top: -130px; */ /* Remove or adjust this line */
+    font-family: sans-serif;
+  }
+  
+  
+  .PETSUPPLIES {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 1px;
+    margin-bottom: -2px;
+  }
+  
+  .item-section {
+    padding-left: 15.2px;
+    padding-right: 17px;
+    padding-top: 0px;
+  }
+  .vision-container
+{
+  margin-top: -3px;
+  margin-bottom: 7px;
+  padding: 6px;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #000;
+  border-radius: 50%;
+  width: 40px;
+  /* Adjust the size of the circular arrows */
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 20px;
+  /* Adjust the font size */
+  color: #fff;
+  padding-right: 5px;
+
+}
+
+
+/* Adjust the arrow position */
+.carousel-control-prev {
+left:  4px;
+  top: 50%;
+  /* width: 10%;
+  height: 10%; */
+}
+
+.carousel-control-next {
+  right: 4px;
+  top: 50%;
+  /* width: 10%;
+  height: 10%; */
+}
+
+.cards-row {
+  display: flex;
+  /* flex-wrap: nowrap; */
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  margin: -5px; /* Adjust the negative margin based on your preference */
+}
+
+.card-col {
+  /* flex: 0 0 calc(16.666667% - 10px); Each column takes approximately 33.33%, adjust margin as needed */
+  margin: -7px; /* Adjust the margin based on your preference */
+  width: auto;
+}
+
+
+.card{
+  width: 130px;
+  height: 130px;
+  flex-shrink: 0;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin-bottom: 30px;
+  padding: 3px;
+  
+  }
+  .content p{
+    padding: 10px;
+    color: #000;
+  font-family: sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 8px;
+  vertical-align: middle;
+  }
+  .icon i{
+    padding-top: 15px;
+    vertical-align: middle;
+    color: #FFC300;
+    font-size:4em;
+  }
+}
+
+
+@media screen and (min-width: 395px) and (max-width: 479.98px)
+{
+
+.testimonial-card{
+  border: none;
+}
+  
+    .swiper-pagination{
+      display: none;
+    }
+  .testimonial-row{
+   padding: 40px;
+   justify-content: left;
+  }
+  .testimonial-card{
+    border: none;
+   }
+  .testimonial-card .card-body
+   {
+    
+    width: 384px;
+    height: 142px;
+    background-color: #282F55;
+   }
+   .testimonial-card .card-body p{
+     color: white;
+     padding: 11px 83px 8px 0px;
+     font-size: 13px;
+     font-family: sans-serif;
+     text-align: left;
+     margin-bottom: -10px;
+   }
+  .rating 
+  {
+  padding-right: 278px;
+  }
+  .rating i{
+    font-size: 13px;
+  }
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 394.98px)
+{
+
+.testimonial-card{
+  border: none;
+}
+  
+    .swiper-pagination{
+      display: none;
+    }
+  .testimonial-row{
+   padding: 40px;
+   justify-content: left;
+   margin-bottom: -40px;
+   margin-top: -69px;
+  }
+  .testimonial-card{
+    border: none;
+   }
+  .testimonial-card .card-body
+   {
+    
+    width: 309px;
+    height: 142px;
+    background-color: #282F55;
+
+   }
+   .testimonial-card .card-body p{
+     color: white;
+     padding: 8px 92px 8px 0px;
+     font-size: 11px;
+     font-family: sans-serif;
+     text-align: left;
+     margin-bottom: -1px;
+   }
+  .rating 
+  {
+  padding-right: 203px;
+  }
+  .rating i{
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  /* Your CSS styles for the specified range go here */
+
+
+/* ********************************************************************** */
+
+
+.brand-image-logo-row {
+  padding: 30px 0px 30px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  margin-bottom: -18px;
+  margin-top: -18px;
+}
+.brands-logo-card{
+  width: 190px;
+  height: 180px;
+  padding: 0px;
+  border: none;
+  box-shadow: none;
+
+
+}
+/* ********************************************************************** */
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1500px) {
+
+
+.brand-image-logo-row {
+  padding: 30px 0px 30px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  margin-bottom: -18px;
+  margin-top: -18px;
+}
+.brands-logo-card{
+  width: 220px;
+  height: 180px;
+  padding: 5px;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+
+}
+.brands-logo-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 0; /* Optional: Remove border-radius if not needed */
+}
+
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  /* Your CSS styles for the specified range go here */
+ 
+
+
+  .brand-image-logo-row {
+    padding: 30px 0px 30px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    margin-bottom: -60px;
+    margin-top: -40px;
+  }
+  .brands-logo-card{
+    width: 175px;
+    height: 175px;
+    padding: 0px;
+    border: none;
+    box-shadow: none;
+  
+  }
+  .brands-logo-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 0; /* Optional: Remove border-radius if not needed */
+  }
+
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .brand-image-logo-row {
+    padding: 30px 0px 30px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: -60px;
+    margin-top: -40px;
+  }
+  
+  .brands-logo-card {
+    width: 147px;
+    height: 147px;
+    padding: 0px;
+    border: none;
+    box-shadow: none;
+  }
+  
+  .brands-logo-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 0; /* Optional: Remove border-radius if not needed */
+  }
+}
+
+
+  @media screen and (min-width: 576px) and (max-width: 768px) {
+    .brand-image-logo-row {
+      padding: 30px 0px 30px 0px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin-bottom: -50px;
+      margin-top: -40px;
+    }
+  
+    .brands-logo-card {
+      width: 135px;
+      height: 135px;
+      padding: 0px;
+      border: none;
+      box-shadow: none;
+    }
+  
+    .brands-logo-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      border-radius: 0; /* Optional: Remove border-radius if not needed */
+    }
+  }
+  
+
+    @media screen and (min-width: 480px) and (max-width: 576px) {
+      .brand-image-logo-row {
+        padding: 30px 0px 30px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: -80px;
+        margin-top: -40px;
+      }
+    
+      .brands-logo-card {
+        width: 150px;
+        height: 150px;
+        padding: 0;
+        border: none;
+        box-shadow: none;
+      }
+    
+      .brands-logo-card img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        border-radius: 0; /* Optional: Remove border-radius if not needed */
+      }
+    }
+    
+
+        @media screen and (min-width: 320px) and (max-width: 479.98px) {
+          .brand-image-logo-row {
+            padding: 30px 0px 30px 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-bottom: -80px;
+            margin-top: -10px;
+          }
+        
+          .brands-logo-card {
+            width: 100%; /* Change to 100% to make it responsive */
+            height: auto; /* Set to auto for maintaining aspect ratio */
+            padding: 0;
+            border: none;
+            box-shadow: none;
+          }
+        
+          .brands-logo-card img {
+            width: 100%; /* Make the image fill its container */
+            height: 100%; /* Make the image fill its container */
+            object-fit: contain; /* Maintain aspect ratio and cover the container */
+            border-radius: 0; /* Optional: Remove border-radius if not needed */
+          }
+        }
+        
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  /* Your CSS styles for the specified range go here */
+
+
+/* ********************************************************************** */
+
+.brand-image-logo-row {
+  padding: 30px 0px 30px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  margin-bottom: -30px;
+  margin-top: -30px;
+}
+.brands-logo-card{
+  width: 200px;
+  height: 180px;
+  padding: 5px;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+
+}
+.brands-logo-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 0; /* Optional: Remove border-radius if not needed */
+}
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  .card .testimonial-card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .testimonial-card .card-body {
+    max-width: 270px; /* Adjust this value based on your design */
+    height: auto; /* Allow the height to adjust based on content */
+    background-color: #282F55;
+  }
+
+  .testimonial-card .card-body p {
+    color: white;
+    padding: 15px 8px 8px 0px;
+    font-size: 13px;
+    font-family: sans-serif;
+    text-align: left;
+    margin-bottom: -3px;
+  }
+
+  .rating {
+    padding-right: 59%; /* Adjust this value based on your design */
+  }
+}
